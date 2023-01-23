@@ -1,26 +1,42 @@
+// Author : The Mufid
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="login">
+    <main>
+      <layout>
+        <Login />
+      </layout>
+    </main>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Login from "./components/Login.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Login,
+  },
+  mounted: async () => {
+    await new Promise((r) => setTimeout(r, 3000));
+    document.getElementById("white").classList.add("hidden");
+    await new Promise((r) => setTimeout(r, 600));
+    document.getElementById("white").remove();
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#login {
+  background: url("assets/background.jpg") center;
+  background-size: repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 2;
+  right: 2;
+  bottom: 2;
+  left: 2;
 }
 </style>
