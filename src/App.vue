@@ -3,8 +3,8 @@
 <template>
   <div id="login">
     <main>
-        <mq-layout mq="lg">
-        <Login />
+      <mq-layout mq="sm">
+        <Login mainStyle="left:10%;width:80%;" inputStyle="width:50%;" />
       </mq-layout>
     </main>
   </div>
