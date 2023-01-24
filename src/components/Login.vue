@@ -8,19 +8,19 @@
       type="text"
       name="username"
       id="username"
-      placeholder="Username"
+      placeholder="Name"
       :style="input" />
     <br />
     <input
       type="password"
       name="password"
       id="password"
-      placeholder="********"
+      placeholder="Pass"
       :style="input" />
     <br />
     <input
       type="button"
-      value="LOGIN SUCCESS"
+      value="LOGIN"
       class="button"
       id="done"
       :style="inputStyle" />
@@ -45,6 +45,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .main {
   background: rgba(255, 255, 255, 0.4);
   position: absolute;
