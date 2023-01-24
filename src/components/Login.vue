@@ -8,14 +8,14 @@
       type="text"
       name="username"
       id="username"
-      placeholder="Name"
+      placeholder="Username"
       :style="input" />
     <br />
     <input
       type="password"
       name="password"
       id="password"
-      placeholder="Pass"
+      placeholder="Password"
       :style="input" />
     <br />
     <input
