@@ -29,8 +29,8 @@ export default {
 
 <style>
 #login {
-  background: url("assets/background.jpg") center;
-  background-size: repeat;
+  background: url("assets/background.jpg") center center;
+  background-size: cover;
   width: 100%;
   height: 100%;
   position: absolute;
