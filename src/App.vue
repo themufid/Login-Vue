@@ -6,14 +6,6 @@
         <mq-layout mq="lg">
         <Login />
       </mq-layout>
-
-      <mq-layout mq="md">
-        <Login mainStyle="left:20%;width:60%;" inputStyle="width:40%;" />
-      </mq-layout>
-
-      <mq-layout mq="sm">
-        <Login mainStyle="left:10%;width:80%;" inputStyle="width:50%;" />
-      </mq-layout>
     </main>
   </div>
 </template>
