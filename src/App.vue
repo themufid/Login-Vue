@@ -29,14 +29,14 @@ export default {
 
 <style>
 #login {
-  background: url("assets/background.jpg") center center;
+  background: url("assets/background.jpg") center;
   background-size: cover;
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 1;
+  right: 2;
+  bottom: 1;
+  left: 2;
 }
 </style>
